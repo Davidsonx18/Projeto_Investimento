@@ -1,0 +1,8 @@
+{% extends 'investimentos/base.html' %}
+{% block conteudo %}
+<div class="container" style="padding: 30px;">
+    <h1>Você saiu do sistema</h1>
+    <p>Deseja fazer login novamente?</p>
+    <a href="{% url 'login' %}" class="btn btn-primary">Fazer login novamente</a>
+</div>
+{% endblock %}
