@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Gkill\Documents\Projeto_Investimento\ambiente
+set VIRTUAL_ENV=C:\Users\Gkill\Documents\projeto_invista_me\ambiente
 
 if not defined PROMPT set PROMPT=$P$G
 
